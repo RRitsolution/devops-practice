@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain');
 
   if (req.url === '/') {
-    res.end("Hello from Nirmal's Server!\n");
+    res.end("Jia Bhole Baba!\n");
   } else if (req.url === '/status') {
     res.end("Status: OK, App is Running!\n");
   } else {
